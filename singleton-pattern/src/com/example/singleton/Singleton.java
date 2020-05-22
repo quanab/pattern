@@ -8,7 +8,7 @@ public class Singleton implements Serializable {
     private volatile static Singleton singleton;
 
     /**
-     * 私有类型的构造函数
+     * 私有构造函数
      */
     private Singleton() {
         super();
